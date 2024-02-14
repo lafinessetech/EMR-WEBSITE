@@ -13,17 +13,31 @@ body
     background-color: whitesmoke;
 }
 .menu-bar
-{
-    text-align:right;
-    color: green;
-    background-color: white;
+{  
+    text-align: center;
+    color:white;
+    background: rgb(246, 248, 246);
+    border-bottom:5px  solid whitesmoke;
+    box-shadow:  5px black;
+    padding-bottom: 20px;
+    
+    
+}
+.logo{
+  float: left;
+  width: 70px;
+  margin: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
 }
 .menu-bar ul 
 {
-    background-color: whitesmoke;
+  
     display: inline-flex;
     list-style: none;
     color: green;
+    padding-right: 50px;
     
 }
 .menu-bar ul li
@@ -35,12 +49,14 @@ body
 .menu-bar ul li a
 {
     text-decoration: none;
-    color:#fff;
+    color: green;
+    padding-top: 40px;
 }
 .active,.menu-bar ul li:hover 
 {
-    background:green;
+    background:rgb(247, 245, 245);
     border-radius: 3px;
+    z-index: index 999;;
 }
 .menu-bar .fa
 {
@@ -49,17 +65,21 @@ body
 
 .dropdown-menu-1{
     display: none;
+    background: green;
+  
+}
+.active, .dropdown-menu-1 a{
+  color: #fff;
 }
 .active,.menu-bar ul li:hover .dropdown-menu-1{
     display: block;
     position: absolute;
-    background: rgb(0,100,0);
-    margin-top: 15px;
-    margin-left: -15px; 
+    background: rgb(246, 248, 246);
+    z-index: 999;
 }
 .menu-bar ul li:hover .dropdown-menu-1 ul{
     display: block;
-    margin: 10px; 
+    margin: 5px; 
 }
 .menu-bar ul li:hover .dropdown-menu-1 ul li{
     width: 150px;
@@ -78,7 +98,8 @@ body
     background: green;
     color: white; 
     width: auto;
-    box-shadow: 3px 3px 5px black;
+    
+    border-radius: 15px;
   }
   .header h1 {
     font-size: 80px;
@@ -171,4 +192,14 @@ body
   right: 0;
   top: -10px;
   bottom: -10px;
+}
+@media screen (max-width:500px;) {
+  .menu-bar{
+    justify-content: center;
+    align-items: center;
+    padding: 500px;
+  }
+  .logo{
+    display: none;
+  }
 }
