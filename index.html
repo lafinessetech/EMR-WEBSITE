@@ -6,81 +6,85 @@
     <title>EMR</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
 </head>
-<body>
+<body> 
 <div class="menu-bar">
     <img src="images/logo.png" class="logo">
 <ul>
     <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
     <li><a href="#"><i class="fa fa-user"></i>About</a>
     <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
-    <li><a href="#"><i class="fa fa-user"></i>About</a>
-           <div class="dropdown-menu-1">
-               <ul>
-                   <li><a href="#">mission</a></li>
-                   <li><a href="#">vission</a></li>
-                   <li><a href="#">Team</a></li>
-               </ul>
-           </div>
-    </li>
-    <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
-    <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+        <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+                    <div class="dropdown-menu-1">
+                        <ul>
+                            <li><a href="#">Appointment</a></li>
+                            <li><a href="#">Pacs Systems</a></li>
+                            <li><a href="#">Instant Services</a></li>
+                            <li><a href="#">Telemedicine</a></li>
+                        </ul>
+                    </div>
+                </li>
+   
+        <li><a href="#"><i class="fa fa-edit"></i>Training</a>
                 <div class="dropdown-menu-1">
-                    <ul>
-                        <li><a href="#">Appointment</a></li>
-                        <li><a href="#">Pacs</a></li>
-                        <li><a href="#">Instant Services</a></li>
-                        <li><a href="#">Telemedicine</a></li>
-                    </ul>
-
+                        <ul>
+                        <li><a href="#">EMR</a></li>
+                        <li><a href="#">Networking</a></li>
+                        <li><a href="#">profiling</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        </ul>
                 </div>
-            </li>
-    <li><a href="#"><i class="fa fa-edit"></i>Training</a>
-           <div class="dropdown-menu-1">
-               <ul>
-                   <li><a href="#">EMR</a></li>
-                   <li><a href="#">Networking</a></li>
-                   <li><a href="#">profiling</a></li>
-               </ul>
-           </div>
-       </li>
+            </li>    
 
-    </li>
+       
+        <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+        <li><a href="#"><i class="fa fa-calender-alt"></i>Event</a></li>
+        <li><a href="#"><i class="fa fa-user"></i>About</a>
+            <div class="dropdown-menu-1">
+                <ul>
+                    <li><a href="#">mission</a></li>
+                    <li><a href="#">vission</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+        </li>
 </ul>
 </div>
     <div class="header">
         <marquee behavior="" direction="left"><h1>WELCOME TO EMR!!!</h1></marquee>
         <p>bienvenue sur le site Lafinesse Tech, nous avons hâte de mieux vous servir.</p>
   </div>
-<div class="navbar">
-    <a href="#">Management</a>
-    <a href="#">Sales</a>
-    <a href="#">Marketing</a>
-    <a href="#" class="right">Request</a>
-            </div>
-        <div class="contianer">
-            <div class="slider-wrapper">
-                <div class="image-list">
-                    <img src="download1.jpg" alt="download1" class="image item">
-                    <img src="download2.jpg" alt="download2" class="image item">
-                    <img src="download3.jpg" alt="download3" class="image item">
-                    <img src="download4.jpg" alt="download4" class="image item">
-                    <img src="download5.jpg" alt="download5" class="image item">
-                    <img src="download6.jpg" alt="download6" class="image item">
-                    <img src="download7.jpg" alt="download7" class="image item">
-                </div>
-            </div>
-            <div class="slider-scrollbar">
-                <div class="scrollbar-track">
-                    <div class="scrollbar-thumb"></div>
-                </div>
-            </div>
+        <div class="navbar">
+            <a href="#">Management</a>
+            <a href="#">Sales</a>
+            <a href="#">Marketing</a>
+            <a href="#" class="right">Request</a>
         </div>
-            <div class="row">
-                <div class="side">
-                <h2>About Me</h2>
-                <h5>Adeniyi P.A</h5>
-            <div class="fakeimg" style="height:200px;"></div>
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="images/emr slider 1.avif"></div>
+                  <div class="swiper-slide"><img src="images/slider2.jpg"></div>
+                  <div class="swiper-slide"><img src="images/slider3.jpg" ></div> 
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+              </div>
+
+
+
+        </div>
 </div>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </body>
 </html>
