@@ -132,20 +132,28 @@ body
     display: flex;
     flex-wrap: wrap;
   }
-  .container{width: 100%;
+  .container{width: 95%%;
     height: 100vh;
-    background: whitesmoke; 
+    background: white; 
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .swiper{
-    width: 80%;
+    width: 100%;
     height: fit-content;
+    margin-top: 50px;
   }
   .swiper-slide img{
     width: 100%;
-
+    border: 2px solid green;
+    border-radius: 15px;
+  }
+  .swiper .swiper-button-prev. .swiper-button-next{
+    color: rgb(17, 178, 17);
+  }
+  .swiper.swiper-pagination-bullet-active{
+    color: white;
   }
   
 @media screen (max-width:500px;) {
