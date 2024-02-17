@@ -20,8 +20,9 @@ body
     border-bottom:5px  solid whitesmoke;
     box-shadow:  5px black;
     padding-bottom: 20px;
-    
-    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .logo{
   float: left;
@@ -106,7 +107,7 @@ body
     border-radius: 10px;
   }
   .header h1 {
-    font-size: 80px;
+    font-size: 50px;
     border-bottom: 50px;
   }
   .container{width: 100%;
@@ -116,6 +117,7 @@ body
     align-items: center;
     justify-content: center;
   }
+  
   .swiper{
     width: 100%;
     height: fit-content;
@@ -123,7 +125,7 @@ body
   }
   .swiper-slide img{
     width: 100%;
-    border: 2px solid green;
+    border: 1px solid green;
     border-radius: 10px;
   }
   .swiper .swiper-button-prev, .swiper .swiper-button-next{
@@ -132,9 +134,43 @@ body
   .swiper .swiper-pagination-bullet-active{
     color: green;
   }
+  .art{
+    background-color: white;
+    justify-content: center;
+    display: flex;
+  }
+  article{
+    color: white;
+    background-color: green;
+    margin-left: 120px;
+    margin: 0;
+    width: 20%;
+    padding-left: 10px;
+    border: 1px solid white;
+    height: 30vh;
+  }
+  article h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  article p{
+    padding-bottom: 20px;
+  }
+  .middle{
+    background-color: rgb(118, 152, 67);
+  }
+.middle h3{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.middle p{
+  padding-bottom: 20px;
+}
   
 @media screen (max-width:500px;) {
-  .menu-bar{
+  menu-bar{
     justify-content: center;
     align-items: center;
     padding: 500px;
