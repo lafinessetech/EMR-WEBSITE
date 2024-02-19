@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EMR</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo1.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body> 
 <div class="menu-bar">
-    <img src="images/logo.png" class="logo">
+    <img src="images/logo1.png" class="logo">
 <ul>
     <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
-    <li><a href="#"><i class="fa fa-user"></i>About</a>
-    <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+    <li><a href="#"><i class="fa fa-user"></i>About</a></li>
+
+    <li><a href="#"><i class="fa fa-clone"></i>Services</a>
                     <div class="dropdown-menu-1">
                         <ul>
+                            <li><a href="#">DHIS2</a></li>
                             <li><a href="#">Appointment</a></li>
                             <li><a href="#">Pacs Systems</a></li>
                             <li><a href="#">Instant Services</a></li>
@@ -26,35 +33,25 @@
                         </ul>
                     </div>
                 </li>
-   
-        <li><a href="#"><i class="fa fa-edit"></i>Training</a>
-                <div class="dropdown-menu-1">
-                        <ul>
-                        <li><a href="#">EMR</a></li>
-                        <li><a href="#">Networking</a></li>
-                        <li><a href="#">profiling</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        </ul>
-                </div>
-            </li>    
-
-       
-        <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
-        <li><a href="#"><i class="fa fa-calender-alt"></i>Event</a></li>
-        <li><a href="#"><i class="fa fa-user"></i>About</a>
-            <div class="dropdown-menu-1">
-                <ul>
-                    <li><a href="#">mission</a></li>
-                    <li><a href="#">vission</a></li>
-                    <li><a href="#">Team</a></li>
-                </ul>
-            </div>
-        </li>
+    <li><a href="#"><i class="fa fa-edit"></i>About</a>
+        <div class="dropdown-menu-1">
+            <ul>
+                <li><a href="#">DHIS2</a></li>
+                <li><a href="#">Appointment</a></li>
+                <li><a href="#">Pacs Systems</a></li>
+                <li><a href="#">Instant Services</a></li>
+            </ul>
+        </div>
+    </li>
+    </li>
+    <li><a href="#"><i class="fa fa-image"></i>Gallery</a></li>        
+    <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+    <li><a href="#"><i class="fa fa-calendar"></i>Event</a></li>
 </ul>
 </div>
     <div class="header">
         <marquee behavior="" direction="left"><h1>WELCOME TO EMR!!!</h1></marquee>
-        <p>bienvenue sur le site EMR, nous avons hâte de mieux vous servir.</p>
+        <p></p>
     </div>
         <div class="container">
             <div class="swiper">
@@ -116,14 +113,25 @@ const swiper = new Swiper('.swiper', {
     </article>
 </div>
     <div class="wrapper">
-        <h4>OUR SERVICES</h4>
+        <h4 class="kode-mono-uniquifier">OUR SERVICES</h4>
         <div>
-            <img src="images/clip3.jpg">
-            <img src="images/clip2.jpg">
-            <img src="images/clip3.jpg">
-            <img src="images/clip2.jpg">
-            <img src="images/clip2.jpg">
-        </div>
+            <article>
+                <img src="images/clip3.jpg">
+                <h5>NURSING</h5>
+            </article>
+            <article>
+                <img src="images/clip2.jpg">
+                <h5>DHIS2</h5>
+            </article>
+            <article>
+                <img src="images/clip2.jpg">
+                <h5>APPOINTMENT</h5>
+            </article>
+            <article>
+                <img src="images/clip3.jpg">
+                <h5>TRAINING</h5>
+            </article>
+            
     </div>
 
 </body>
