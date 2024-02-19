@@ -221,6 +221,86 @@ body
   color: green;
   text-align: center;
 }
+footer .futer{
+  background-color: green;
+  
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;    
+}
+.futer-ul ul{
+  list-style: none;
+}
+.futer-ul h6{
+  display: inline-block;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative
+  font-family: sans-serif;
+  text-align: right;
+
+}
+.futer-ul h6::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background: whitesmoke;
+    bottom: -10px;
+}
+.futer-ul ul li{
+    padding: 10px 0;
+}
+
+.futer-ul ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7s;
+    transition: 0.5s;
+}
+
+.futer-ul ul li a:hover{
+    opacity: 1;
+}
+
+.futer-ul input{
+  border: none;
+  width: 250px;
+  height: 45px;
+  display: block;
+  padding-left: 20px;
+  margin: 14px 0;
+}
+
+.futer-ul .inputSubmit{
+  padding: 8px 20px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.cons p{
+  color: white;
+}
+.icon .socialIcons{
+     display: inline-block;
+     float: right;
+     color: white;
+     font-size: 15px;
+     margin: 0 15px;
+     transition: 0.5s;  
+}
+.icon .socialIcons i:hover{
+    color: aqua;
+}
+
+
+
+ 
 
   
 @media screen (max-width:500px;) {
