@@ -225,19 +225,27 @@ body
 }
 footer .wallpaper{
   margin-top: 40px;
-    background-color: black;
+  background-color: rgb(141, 177, 87);
+  border-radius: 50px;
 }
 .row{
   display: flex;
   color: white;
   justify-content: space-between;
-  padding: 40 100px;
+  padding: 40px 80px;
+}
+.row .logol img{
+  border-radius: 85px;
+
 }
 .footer .footer-colomn ul{
   list-style: none;
 }
+.footer-colomn3 .text-box p{
+  font-size: larger;
+}
 .footer-colomn h6{
-  color: green;
+  color: whitesmoke;
   margin-bottom: 25px;
   font-size: 30px;
   font-style: 22px;
@@ -249,7 +257,6 @@ footer .wallpaper{
   width: 70px;
   height: 2px;
   position: absolute;
-  background-color: red;
   border-bottom: -10px;
 }
 .footer-colomn ul li{
@@ -280,7 +287,7 @@ footer .wallpaper{
   color: white;
 }
 .col p{
-  color: white ;
+  color: white;
 }
 .row hr{
   opacity: 0.7;
