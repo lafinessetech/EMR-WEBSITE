@@ -143,6 +143,7 @@ body
     justify-content: center;
     display: flex;
     margin-top: 2px;
+    margin-bottom: 70px;
   }
   article{
     color: white;
@@ -207,6 +208,7 @@ body
   display: inline-block;
   width: 300px;
   margin: 30px
+  
 
   
 }
@@ -221,95 +223,72 @@ body
   color: green;
   text-align: center;
 }
-footer .futer{
-  background-color: green;
-  
+footer .wallpaper{
+  margin-top: 40px;
+    background-color: black;
 }
 .row{
   display: flex;
+  color: white;
   justify-content: space-between;
-  padding: 40px 100px;    
+  padding: 40 100px;
 }
-.futer-ul ul{
+.footer .footer-colomn ul{
   list-style: none;
 }
-.futer-ul h6{
-  display: inline-block;
+.footer-colomn h6{
+  color: green;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-style: 22px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-colomn h6::before{
+  content: '';
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  background-color: red;
+  border-bottom: -10px;
+}
+.footer-colomn ul li{
+  padding: 10px 0;
+}
+.footer-colomn ul li a{
   color: white;
-  margin-bottom: 20px;
-  font-size: 20px;
-  position: relative
-  font-family: sans-serif;
-  text-align: right;
-
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.7s;
+  transition: 0.5s;
 }
-.futer-ul h6::before{
-    content: '';
-    width: 70px;
-    height: 2px;
-    position: absolute;
-    background: whitesmoke;
-    bottom: -10px;
+.footer-colomn ul li a:hover{
+  opacity: 1;
 }
-.futer-ul ul li{
-    padding: 10px 0;
-}
-
-.futer-ul ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    opacity: 0.7s;
-    transition: 0.5s;
-}
-
-.futer-ul ul li a:hover{
-    opacity: 1;
-}
-
-.futer-ul input{
+.footer-colomn input{
   border: none;
   width: 250px;
   height: 45px;
   display: block;
-  padding-left: 20px;
+  padding left: 20px;
   margin: 14px 0;
 }
-
-.futer-ul .inputSubmit{
+.footer-colomn .InputSubmit{
   padding: 8px 20px;
-  background-color: red;
+  background-color: green;
   border: none;
   color: white;
 }
-
-.cons p{
+.col p{
+  color: white ;
+}
+.row hr{
+  opacity: 0.7;
+}
+.row .socialIcons i{
+  display: inline-block;
   color: white;
-}
-.icon .socialIcons{
-     display: inline-block;
-     float: right;
-     color: white;
-     font-size: 15px;
-     margin: 0 15px;
-     transition: 0.5s;  
-}
-.icon .socialIcons i:hover{
-    color: aqua;
-}
-
-
-
- 
-
-  
-@media screen (max-width:500px;) {
-  menu-bar{
-    justify-content: center;
-    align-items: center;
-    padding: 500px;
-  }
-  .logo{
-    display: none;
-  }
+  font-size: 20px;
+  margin: 0 15px;
+  transition: 0.5s;
 }
