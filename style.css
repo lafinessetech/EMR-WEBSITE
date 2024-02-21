@@ -265,9 +265,11 @@ footer .wallpaper{
 .footer-colomn3 .text-box h7{
   color: rgb(8, 66, 8);
   font-size: larger;
-  font-size: 45px;
-  
-
+  font-size: 25px;
+}
+.footer-colomn3 .text-box p{
+  font-size: 15px;
+  color: green;
 }
 .footer-colomn h6::before{
   content: '';
