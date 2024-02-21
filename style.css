@@ -227,7 +227,7 @@ body
 }
 footer .wallpaper{
   margin-top: 40px;
-  background-color: rgb(141, 177, 87);
+  background-color: green;
   border-radius: 50px;
 }
 .row{
@@ -240,6 +240,10 @@ footer .wallpaper{
   width: 120px;
   border-radius: 100px;
   margin-right: 30px;
+}
+.row .logol h7{
+  font-size: 23px;
+  color: white;
 }
 .row .logol p{
   color: whitesmoke;
@@ -263,7 +267,7 @@ footer .wallpaper{
   font-family: Arial, Helvetica, sans-serif;
 }
 .footer-colomn3 .text-box h7{
-  color: rgb(8, 66, 8);
+  color: white;
   font-size: larger;
   font-size: 25px;
 }
@@ -320,4 +324,17 @@ footer .wallpaper{
   font-size: 20px;
   margin: 0 15px;
   transition: 0.5s;
+}
+@media only screen (min-max 767px) {
+  .menu-bar{
+    padd
+    justify-self: start;
+    color:white;
+    background: rgb(246, 248, 246);
+    border-bottom:5px  solid whitesmoke;
+    box-shadow:  5px black;
+  
+    
+  }
+  
 }
