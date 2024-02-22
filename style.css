@@ -228,7 +228,7 @@ body
 footer .wallpaper{
   margin-top: 40px;
   background-color: green;
-  border-radius: 50px;
+  border: none;
 }
 .row{
   display: flex;
@@ -242,8 +242,11 @@ footer .wallpaper{
   margin-right: 30px;
 }
 .row .logol h7{
-  font-size: 23px;
-  color: white;
+  margin-bottom: 25px;
+  color: greenyellow;
+  font-size: 30px;
+  font-style: 22px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .row .logol p{
   color: whitesmoke;
@@ -259,29 +262,31 @@ footer .wallpaper{
   margin-top: 20px;
 }
 .footer-colomn h6{
-  color: whitesmoke;
+  color: greenyellow;
   margin-bottom: 25px;
   font-size: 30px;
   font-style: 22px;
-  position: relative;
   font-family: Arial, Helvetica, sans-serif;
 }
+.footer-colomn ul li{
+  color: rgb(0, 255, 47);
+}
+.footer-colomn ul i{
+  color: black
+}
 .footer-colomn3 .text-box h7{
-  color: white;
-  font-size: larger;
-  font-size: 25px;
+  margin-bottom: 25px;
+  color: greenyellow;
+  font-size: 30px;
+  font-style: 22px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .footer-colomn3 .text-box p{
   font-size: 15px;
   color: green;
 }
-.footer-colomn h6::before{
-  content: '';
-  width: 70px;
-  height: 2px;
-  position: absolute;
-  border-bottom: -10px;
-}
+
+
 .footer-colomn ul li{
   padding: 10px 0;
 }
@@ -309,14 +314,9 @@ footer .wallpaper{
   border: none;
   color: white;
 }
-.row .col p{
+.rowl .coll p{
   color: white;
-  text-align: center;
-  
-}
-.row hr{
-  opacity: 0.7s;
-  
+  justify-self: center;
 }
 .row .socialIcons i{
   display: inline-block;
@@ -324,6 +324,18 @@ footer .wallpaper{
   font-size: 20px;
   margin: 0 15px;
   transition: 0.5s;
+}
+.footer-colomn34 h8{
+  margin-left: 100px;
+  color: greenyellow;
+  font-size: 30px;
+  font-style: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-colomn34 p{
+  color: whitesmoke;
+  font-size: 15px;
+
 }
 @media only screen (min-max 767px) {
   .menu-bar{
