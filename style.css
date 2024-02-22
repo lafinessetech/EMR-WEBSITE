@@ -24,6 +24,7 @@ body
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    margin-bottom: 10px;
 }
 .logo{
   float: left;
@@ -41,6 +42,7 @@ body
     list-style: none;
     color: green;
     padding-right: 50px;
+    margin-bottom: 5px;
     
 }
 .menu-bar ul li
@@ -107,14 +109,15 @@ body
     color: white; 
     width: auto;
     border-radius: 10px;
-    height: 20vh;
+    height: 27vh;
+    margin-top: 15px;
   }
   .header h1 {
     font-size: 50px;
     border-bottom: 3px;
   }
   .container{width: 100%;
-    height: 55vh;
+    height: 53vh;
     margin-top: 10px;
     background: white; 
     display: flex;
@@ -153,13 +156,13 @@ body
     width: 20%;
     padding-left: 10px;
     border: 1px solid white;
-    height: 35vh;
+    height: 40vh;
   }
   article h2{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
   }
   article p{
     padding-bottom: 20px;
@@ -170,7 +173,7 @@ body
   }
 .middle h3{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -181,6 +184,7 @@ body
   background-color: white;
   width: 100%;
   height: 50vh;
+  margin-bottom: 70px;
 }
 .wrapper img{
   display: inline-flex;
@@ -339,8 +343,8 @@ footer .wallpaper{
 }
 @media only screen (min-max 767px) {
   .menu-bar{
-    padd
     justify-self: start;
+    align-self: start;
     color:white;
     background: rgb(246, 248, 246);
     border-bottom:5px  solid whitesmoke;
